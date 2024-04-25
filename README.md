@@ -44,6 +44,8 @@ The application allows users to:
 - Navigate through the menu structured as a tree.
 - Select items with the desired quantity and add them to the order.
 - Check inventory levels and update them as necessary before finalizing orders.
+- Print final receipt with all orders and drinks.
+- Ask user if order, exit or get drinks to showcase all data structures techniques used. 
 
 ## Contact
 - GitHub @AbdulazizAlsheikh (https://github.com/AbdulazizAlsheikh)
