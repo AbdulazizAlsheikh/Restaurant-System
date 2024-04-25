@@ -1,7 +1,7 @@
 # Cloud-Based Restaurant System
 
 ## Project Overview
-This repository contains a cloud-based restaurant system designed for a Data Structures course at the Al Imam Mohammad Ibn Saud Islamic University. The system aims to streamline the ordering and collection process in a restaurant environment, enhancing efficiency and customer satisfaction through intelligent use of data structures.
+This repository contains a cloud-based restaurant system designed for a Data Structures course at the Al Imam Mohammad Ibn Saud Islamic University. The system aims to streamline the ordering and collection process in a virtual restaurant environment, enhancing efficiency and customer satisfaction through intelligent use of data structures.
 
 ## Problem Statement
 The cloud-based restaurant system is intended to provide a seamless ordering and collection experience. The project involves complex functionalities:
