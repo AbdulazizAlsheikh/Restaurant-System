@@ -1,43 +1,54 @@
-# Restaurant System Project
+# Cloud-Based Restaurant System
 
-## Description
-This project is a restaurant management system designed as a part of a Data Structures course. It utilizes various data structures such as queues, stacks, and trees to manage virtual restaurant operations efficiently. The system is developed in Java, showcasing the ability to apply complex data structures in solving real-world problems.
+## Project Overview
+This repository contains a cloud-based restaurant system designed for a Data Structures course at the Al Imam Mohammad Ibn Saud Islamic University. The system aims to streamline the ordering and collection process in a restaurant environment, enhancing efficiency and customer satisfaction through intelligent use of data structures.
 
-## Features
-- Order Management: Utilizes queues to manage the order processing pipeline from order placement to delivery.
-- Inventory Tracking:Employs trees for organizing inventory items in a structured manner, allowing for efficient search, add, and delete operations.
-- Reservation System: Implements stacks to manage orders, allowing for easy addition and cancellation.
+## Problem Statement
+The cloud-based restaurant system is intended to provide a seamless ordering and collection experience. The project involves complex functionalities:
+- Menu Browsing and Order Placement: Structured as a tree where each node represents a menu category, facilitating easy navigation and item selection.
+- Inventory Management: Ensures sufficient stock for selected items, prompting updates where necessary.
+- Order Processing: Utilizes queues to manage order flow in the kitchen, ensuring a first-come, first-serve processing basis.
 
-## Installation
-To set up the restaurant system on your local machine, follow these steps:
+## Solution Techniques
+The system was developed using Java and incorporates various data structures to optimize operations:
+- Tree: For menu organization, allowing for efficient category and item browsing.
+- Linked Lists: To store item details within orders and manage inventory dynamically.
+- Queues: To handle order processing in the kitchen, ensuring timely preparation based on order sequence.
+- Stack:: To order in multiple orders before preforming the order operation. 
+- File Extracting: To extract file list of menu items. 
+- Arrays: Used throughout in simple forms.
 
-1. Clone the Repository
-    ```bash
-    git clone https://github.com/your-username/restaurant-system.git
-    cd restaurant-system
-    ```
+## Getting Started
+### Prerequisites
+- Java JDK 8 or later
 
-2. Compile Java Code
-    ```bash
-    javac RestaurantSystem.java
-    ```
+### Installation
+Clone the repository to your local machine:
+```bash
+git clone https://github.com/your-username/restaurant-system.git
+cd restaurant-system
+```
 
-3. Run the Application
-    ```bash
-    java RestaurantSystem
-    ```
+Compile the source code:
+```bash
+javac RestaurantSystem.java
+```
+
+Run the application:
+```bash
+java RestaurantSystem
+```
 
 ## Usage
-After running the application, you will be able to:
-- Add, remove, or modify orders from the order queue.
-- Manage inventory by adding new items, updating existing items, or removing items using the tree structure.
-- Handle table reservations by pushing to and popping from the reservation stack.
-- Generate and view various reports based on current data.
+The application allows users to:
+- Navigate through the menu structured as a tree.
+- Select items with the desired quantity and add them to the order.
+- Check inventory levels and update them as necessary before finalizing orders.
 
 ## Contact
 - GitHub @AbdulazizAlsheikh (https://github.com/AbdulazizAlsheikh)
 - LinkedIn Abdulaziz Alsheikh (http://linkedin.com/in/abdulaziz-alsheikh-3b099a2bb)
 
 ## Acknowledgements
-- Data Structures Course (CS252), Imam Mohammed Ibn Saud Islamic University 
-- Java Programming Language
+- Data Structures Course (CS252), Imam Mohammed Ibn Saud Islamic University.
+- Java Programming Language.
